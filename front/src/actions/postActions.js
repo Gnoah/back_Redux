@@ -1,4 +1,4 @@
-import { FETCH_POSTS, NEW_POST } from './types.js';
+import { FETCH_POSTS, NEW_POST } from './actions';
 import axios from 'axios';
 //import 'whatwg-fetch'
 
@@ -22,7 +22,7 @@ export const createPost = postData => dispatch => {
         url: 'http://localhost:8070/eleve',
         data: postData
       })
-  
+
     // fetch('https://localhost:8070/eleve', {
     //   method: 'POST',
     //   headers: {

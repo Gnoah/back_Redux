@@ -34,18 +34,6 @@ onSubmit(e) {
   this.props.createPost(post);
 }
 
-// fetch('http://localhost:8070/eleve', {
-//   method: 'POST',
-//   headers: {
-//     'content-type': 'application/json'
-//   },
-//   body: JSON.stringify(post)
-// })
-//   .then(res => res.json())
-//   .then(data => console.log(data));  
-
-// }
-
     render() {
       return (
           <div>
